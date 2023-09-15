@@ -18,7 +18,7 @@ A book can be added making a POST request to the endpoint: http://localhost:8000
 The list of books can be viewed using GET method in the same endpoint: http://localhost:8000/books/books/
 
 ### Filter/Search books: 
-A books can be searched using POST method in the same endpoint: http://localhost:8000/books/books?title__icontains= <some_text>
+A books can be searched using POST method in the endpoint: http://localhost:8000/books/books?title__icontains= <some_text>
 
 ### Update book: 
 A specific book can be viewed or modified using the GET or PUT/PATCH method in the endpoint: http://localhost:8000/books/books/<book_id>/
